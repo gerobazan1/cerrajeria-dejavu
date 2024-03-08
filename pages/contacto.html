@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="icon" href="./../utils/icon-llave.ico" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="./../index.html">
+                <img src="./../img/logo-cerrajeria.png" alt="Logo de Cerrajería">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="./../index.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="contacto-container">
+            <div class="contacto-mapa-container">
+                <div class="contacto">
+                    <div class="contacto-titulo">
+                        <h2>Contacto</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="bi bi-geo-alt"></i>
+                            Talcahuano 306 - CABA
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope"></i>
+                            cerrajeriadejavu@hotmail.com
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            (11) 4383 3889
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            +54 11 4975 6033
+                        </li>
+                    </ul>
+
+                    <li>
+                        <i class="bi bi-clock"></i>
+                        <strong>Horarios de Atención:</strong>
+
+                    </li>
+                    <div class="horario-dias">
+                        <p>Lunes a Viernes - 9:00hs a 19:00hs</p>
+                        <p>Sábados - 9:00hs a 16:00hs</p>
+                    </div>
+                </div>
+
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9639470279894!2d-58.3850341478491!3d-34.60507316507777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac5ba4823fd%3A0x3cef96f9abdbcb00!2sTalcahuano%20306%2C%20C1013AAH%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1708989372613!5m2!1ses!2sar" width="600" height="450" style="border:0;" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <section id="contacto-section">
+                <h1>Formulario de Contacto</h1>
+                <p>¡Contactate con nosotros! Responderemos a la brevedad.</p>
+
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su Email" required>
+
+                    <label for="cliente">Tipo de Cliente:</label>
+                    <select class="form-select" id="cliente" name="cliente" required>
+                        <option value="" disabled selected>Seleccione su categoría</option>
+                        <option value="Particular">Cliente Particular</option>
+                        <option value="Empresa">Cliente Consorcio</option>
+                        <option value="Empresa">Cliente Empresa</option>
+                    </select>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" title="Ingrese solo números (sin espacios ni caracteres especiales)" placeholder="Ingrese su número de telefono">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="div-footer">
+        <div class="div-informacion">
+            <div class="divisor">
+                <a href="https://www.coderhouse.com/" target="_blank">
+                    <img src="./../img/logo-coderhouse.png" alt="Logo de Coderhouse">
+                </a>
+            </div>
+            <div class="divisor">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Con 30 años de experiencia, brindamos servicios de cerrajería especializados para empresas y consorcios.</p>
+            </div>
+            <div class="divisor">
+                <h2>CONTACTO</h2>
+                <div class="contacto">
+                    <a href="https://www.facebook.com/geronimobazann/" target="_blank" class="bi bi-facebook"></a>
+                    <a href="https://www.instagram.com/geronimobazan/"target="_blank" class="bi bi-instagram"></a>
+                    <a href="https://wa.me/5491123503172" target="_blank" class="bi bi-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="div-derechos">
+            <small>© 2024 | <b>Sitio diseñado por</b> - Gerónimo Bazán. Estudiante de Coderhouse.</small>
+        </div>
+    </footer>
+</body>
+</html>
