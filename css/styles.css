@@ -21,7 +21,7 @@ body {
 }
 
 .header-background {
-  background-image: url('../img/6-banner.png'); /* Ruta de tu imagen de fondo */
+  background-image: url('../img/4-banner.png'); 
   background-size: cover;
   background-position: center;
   position: relative;
